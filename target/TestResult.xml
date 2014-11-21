@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="cxxtest" date="Fri Nov 21 07:01:07 2014" tests="3" errors="0" failures="0" time="0" >
+    <testcase classname="MacroExampleTest" name="test_square_0" line="15" />
+    <testcase classname="MacroExampleTest" name="test_square_5_2" line="21" />
+    <testcase classname="MacroExampleTest" name="test_square_2_2" line="27" />
+</testsuite>
