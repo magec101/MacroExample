@@ -15,6 +15,8 @@ int main(int argc, char* argv[]){
     if (argc > 2) {
         num1 = atoi(argv[1]);
         num2 = atoi(argv[2]);
+    } else {
+        printf ("No arguments were passed..!"); return 1;
     }
     printf("Boadmass: %d\n", macroExampleMain(num1, num2));
     return 0;
