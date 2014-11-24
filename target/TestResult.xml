@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite name="cxxtest" date="Sun Nov 23 06:35:43 2014" tests="3" errors="0" failures="2" time="0" >
+<testsuite name="cxxtest" date="Mon Nov 24 14:36:02 2014" tests="4" errors="0" failures="1" time="0" >
     <testcase classname="MacroExampleTest" name="test_square_0" line="15" />
-    <testcase classname="MacroExampleTest" name="test_square_5_2" line="21">
-        <failure file="/var/www/html/codeit/workspace/MacroExample/src/MacroExampleTest.h" line="24" type="failedAssertEquals" >Error: Expected (49 == num), found (49 != 17)</failure>
-    </testcase>
-    <testcase classname="MacroExampleTest" name="test_square_2_2" line="27">
-        <failure file="/var/www/html/codeit/workspace/MacroExample/src/MacroExampleTest.h" line="30" type="failedAssertEquals" >Error: Expected (16 == num), found (16 != 8)</failure>
+    <testcase classname="MacroExampleTest" name="test_square_5_2" line="21" />
+    <testcase classname="MacroExampleTest" name="test_square_2_2" line="27" />
+    <testcase classname="MacroExampleTest" name="test_square_5_6" line="33">
+        <failure file="/var/www/html/codeit/faculty/workspace/MacroExample/src/MacroExampleTest.h" line="36" type="failedAssertEquals" >Error: Expected (41 == num), found (41 != 121)</failure>
     </testcase>
 </testsuite>

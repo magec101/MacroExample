@@ -29,4 +29,10 @@ public:
 
 		TS_ASSERT_EQUALS(16, num);
 	}	
+	
+	void test_square_5_6(){
+		int num = macroExampleMain(5, 6);
+
+		TS_ASSERT_EQUALS(41, num);
+	}	
 };

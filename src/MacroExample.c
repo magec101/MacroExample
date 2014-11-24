@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define square(x) x*x
+#define square(x) (x)*(x)
 
 int macroExampleMain(int num1, int num2) {
    return  (square(num1+num2));
